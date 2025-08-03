@@ -25,6 +25,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "u8g2.h"
+#include "u8g2_user_port.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
