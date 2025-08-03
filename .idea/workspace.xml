@@ -23,7 +23,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15c66240-0b17-4792-b055-400754a17243" name="更改" comment="" />
+    <list default="true" id="15c66240-0b17-4792-b055-400754a17243" name="更改" comment="docs: 修正说明文件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,15 +66,17 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;C/C++ 文件.main.c.executor&quot;: &quot;Run&quot;,
     &quot;OpenOCD 下载并运行.OCD stm32_u8g2.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/Sector0/AppData/Clion/stm32_u8g2/Drivers/U8G2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/Sector0/AppData/Clion/stm32_u8g2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,6 +88,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Drivers/U8G2" />
       <recent name="$PROJECT_DIR$/Drivers" />
     </key>
@@ -94,9 +99,9 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD stm32_u8g2">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="stm32_u8g2.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stm32_u8g2" TARGET_NAME="stm32_u8g2.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="stm32_u8g2" RUN_TARGET_NAME="stm32_u8g2.elf">
@@ -104,10 +109,22 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stm32_u8g2" TARGET_NAME="main.c" CONFIG_NAME="main.c">
+      <option name="sourceFile" value="Core/Src/main.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="C/C++ 文件.main.c" />
       <item itemvalue="CMake 应用程序.stm32_u8g2.elf" />
       <item itemvalue="OpenOCD 下载并运行.OCD stm32_u8g2" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ 文件.main.c" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -118,8 +135,27 @@
       <option name="presentableId" value="Default" />
       <updated>1754225115414</updated>
       <workItem from="1754225117879" duration="2495000" />
-      <workItem from="1754227635616" duration="684000" />
+      <workItem from="1754227635616" duration="1933000" />
+      <workItem from="1754229579075" duration="300000" />
+      <workItem from="1754229881331" duration="149000" />
     </task>
+    <task id="LOCAL-00001" summary="docs: 添加说明文件">
+      <option name="closed" value="true" />
+      <created>1754229607497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754229607497</updated>
+    </task>
+    <task id="LOCAL-00002" summary="docs: 修正说明文件">
+      <option name="closed" value="true" />
+      <created>1754229796625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754229796625</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,5 +165,10 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docs: 添加说明文件" />
+    <MESSAGE value="docs: 修正说明文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: 修正说明文件" />
   </component>
 </project>

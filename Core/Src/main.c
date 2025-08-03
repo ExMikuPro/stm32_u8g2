@@ -21,11 +21,10 @@
 #include "i2c.h"
 #include "spi.h"
 #include "gpio.h"
-#include "u8g2_user_port.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "u8g2.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
