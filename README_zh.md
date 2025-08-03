@@ -77,10 +77,10 @@ list(APPEND sources ${U8G2_SOURCES})
 ## 代码结构
 
 - **Core/**: 包含主应用程序逻辑和初始化代码。
-- **Drivers/**: 包含外设驱动和 u8g2 集成代码。
     - **u8g2_user_port.c**: 用户定义的 SPI/I2C 通信接口。
-    - **u8g2_user_port.h**: 用户定义的头文件。
+- **Drivers/**: 包含外设驱动和 u8g2 集成代码。
 - **Inc/**: 包含项目配置头文件。
+    - **u8g2_user_port.h**: 用户定义的头文件。
 - **STM32CubeMX/**: CubeMX 配置文件。
 
 ## 常见问题

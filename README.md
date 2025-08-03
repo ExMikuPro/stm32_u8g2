@@ -77,10 +77,10 @@ After generating the code, compile and upload the project via STM32CubeIDE or CL
 ## Code Structure
 
 - **Core/**: Contains the main application logic and initialization code.
-- **Drivers/**: Contains peripheral drivers and u8g2 integration code.
     - **u8g2_user_port.c**: User-defined SPI/I2C communication interface.
-    - **u8g2_user_port.h**: User-defined header file.
+- **Drivers/**: Contains peripheral drivers and u8g2 integration code.
 - **Inc/**: Contains project configuration header files.
+    - **u8g2_user_port.h**: User-defined header file.
 - **STM32CubeMX/**: CubeMX configuration files.
 
 ## Common Issues
